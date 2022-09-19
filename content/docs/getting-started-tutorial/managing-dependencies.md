@@ -80,7 +80,7 @@ Read more about the <code>ref()</code> function [here](/reference#ICommonContext
 
 <div className="bp3-callout bp3-icon-info-sign bp3-intent-primary" markdown="1">
 <h4 class="bp3-heading">The dependency tree</h4>
-Here you can see a visualisation of your entire Dataform project. Every time Dataform creates a run and executes SQL in your warehouse, it will update the actions in the corect dependency order. 
+Here you can see a visualisation of your entire Dataform project. Every time Dataform creates a run and executes SQL in your warehouse, it will update the actions in the correct dependency order. 
 </a></div>
 
 You now have two tables created in your warehouse, one called `order_stats` and one called `customers`. `customers` depends on `order_stats` and will start running when `order_stats` is completed.
